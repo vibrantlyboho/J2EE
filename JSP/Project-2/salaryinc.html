@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Department Salary Increment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>Increment salary by department</h1></div>
+        <form action="salary.jsp" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label>Department </label>
+                    </td>
+                    <td>
+                        <input type="text" name="dept" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>New Salary </label>
+                    </td>
+                    <td>
+                        <input type="number" name="new_salary" >
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                      <input type="submit" value="change">  
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
